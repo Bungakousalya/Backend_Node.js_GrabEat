@@ -6,7 +6,7 @@ const firmRoutes = require("./routes/firmRoutes");
 const productRoutes = require("./routes/productRoutes"); 
 
 const app = express();
-const PORT = 4000;
+const PORT =process.env.PORT|| 4000;
 
 // Middleware
 app.use(express.json());

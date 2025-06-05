@@ -23,7 +23,7 @@ app.use("/firm", firmRoutes);
 app.use("/product", productRoutes);
 
 // Test route
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
   res.send("GrabEat Backend is running!");
 });
 
